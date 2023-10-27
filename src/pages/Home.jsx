@@ -21,18 +21,16 @@ const Home = () => {
         style={{height: 40, width: 150}}
         source={require('../assets/images/amirul.png')}
       />
-      <View
-        style={{
-          height: 40,
-          width: 40,
-          borderRadius: 20,
-          backgroundColor: 'yellow',}}>
+      <View>
+      <Image
+        resizeMode="contain"
+        style={{height: 100,width:170, marginLeft: 115 }}
+        source={require('../assets/images/mnu.png')}/>
       </View>
           
     </View>
           <View style={{flexDirection: 'row'}}>
           <View style={{
-            borderWidth: 1,
             padding: 12,
             flex:1,
             marginTop:16
@@ -47,26 +45,29 @@ const Home = () => {
           <Text>Rp.100.000,00</Text>
           </View>
           <View style={{
-            borderWidth: 1,
+    
             padding: 12,
             flex:1,
             marginTop:16,
           }}>
+            <View>
+            <Image
+        resizeMode="contain"
+        style={{height: 180,width:170, borderRadius:18, alignItems :'center',marginLeft:10, marginTop: 50 }}
+        source={require('../assets/images/susu-buatan.jpg')}
+      />
           <View style={{
-            height: 200, 
             backgroundColor: 'red',
             borderRadius: 14
           }}>
           </View>
-          <Text>Darah Mem-cho</Text>
-          <Text>Rp.1090909090</Text>
-          
-
+          <Text style={{marginTop:10, marginLeft: 15}}>Susu</Text>
+          <Text style={{marginLeft:15}}>Rp.3.000</Text>
+          </View>
           </View>
           </View>
           <View style={{flexDirection: 'row'}}>
           <View style={{
-            borderWidth: 1,
             padding: 12,
             flex:1,
           }}>
@@ -76,11 +77,11 @@ const Home = () => {
             borderRadius: 14
           }}>
           </View>
-          <Text>Susu Mem-cho</Text>
+          <Text style={{marginLeft: 15}}>Susu Mem-cho</Text>
           <Text>Rp.100.000,00</Text>
           </View>
           <View style={{
-            borderWidth: 1,
+
             padding: 12,
             flex:1,
           }}>
